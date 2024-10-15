@@ -1,7 +1,7 @@
 ## While_Learning
 
 **While_Learning** serves as a documentation of my endless pursuit of continuous learning, growth, and improvement as an aspiring software engineer.
-This repository stores exercises, as well as mini projects, that I have completed as part of this journey, reflecting my ongoing commitment to enhancing
+This repository stores notes, exercises, and projects that I have written and completed as part of this journey, reflecting my ongoing commitment to enhancing
 and expanding my programming skills.
 
 
