@@ -9,6 +9,8 @@ This repository spans multiple programming languages and concepts, storing probl
 Whether it's solving algorithmic problems, working on small projects, or experimenting with new technologies, **While_Learning** reflects my ongoing commitment
 and effort to learn, improve, and enhance my skills across different areas of software development.
 
+---
+
 ### Resources
 These are the resources I am currently using (or have used) to guide my learning.
 - **Exercism**, an open-source platform for learning and improving programming skills through practice and mentorship.
