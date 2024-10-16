@@ -11,7 +11,7 @@ NOTE: Currently forming my own study plan. Scouring through notable data science
 online courses (e.g. Udemy, Udacity, Coursera, edX), etc. Hoping to have created a thorough study plan within a week
 (Oct. 21, 2024).
 
-[] Python Data Analysis Libraries
+[] Python Libraries
 [] SQL for Data Analysis
 [] Machine Learning Models
 [] Mathematics Behind ML
