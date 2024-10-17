@@ -1,12 +1,19 @@
 
-### Exercism Solutions
+### Learning Python
+
 ---
+
+The **Learning_Python** directory of **While_Learning** is dedicated to my journey in refreshing
+my knowledge and technical skills in Python, serving as a comprehensive resource for my
+learning progress in Python, covering everything from fundamental concepts to advanced Python
+techniques and libraries.
+
 **_Purpose_**
 
-To track the languages I am learning (or have learned), showcasing my solutions to exercises provided by **Exercism** under
-different programming languages, with each language having its own subdirectory.
+To refresh my knowledge and technical skills in Python with the intention of diving deeper
+into **Data Science**, **Machine Learning**, and **Artificial Intelligence**.
 
 **_Progress_**
-```
-Python - 94 / 140
-```
+- Relearned the fundamentals of Python, solving Python coding exercises from **Exercism**.
+- Diving deeper into Python using **Percipio Aspire Journey: Python Novice to Pythonista**.
+- Dive even deeper using **Percipio Aspire Journey: Pythonista to Python Master**.
