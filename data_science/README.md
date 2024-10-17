@@ -2,7 +2,7 @@
 ---
 **_Purpose_**
 
-To dive deeper into the world of **data science**, **machine learning**, and **artificial intelligence**.
+To gain a deeper understanding of **Data Science** and **Machine Learning**.
 
 #### _Study Plan_
 
