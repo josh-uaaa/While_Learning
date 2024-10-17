@@ -15,5 +15,5 @@ into **Data Science**, **Machine Learning**, and **Artificial Intelligence**.
 
 **_Progress_**
 - Relearned the fundamentals of Python, solving Python coding exercises from **Exercism**.
-- Diving deeper into Python using **Percipio Aspire Journey: Python Novice to Pythonista**.
-- Dive even deeper using **Percipio Aspire Journey: Pythonista to Python Master**.
+- Diving deeper into Python using **Skillsoft Aspire Journey: Python Novice to Pythonista**.
+- Dive even deeper using **Skillsoft Aspire Journey: Pythonista to Python Master**.
