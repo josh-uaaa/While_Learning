@@ -12,5 +12,5 @@ learning progress in Python. This may include solutions to coding exercises, not
 To refresh my knowledge and technical skills in Python with the intention of diving deeper
 into **Data Science**, **Machine Learning**, and **Artificial Intelligence**.
 
-**_Progress_**
-- Relearned the fundamentals of Python, solving Python coding exercises from **Exercism**.
+**_Resources_**
+- **Exercism**, an open-source platform for learning and improving programming skills through practice and mentorship.
