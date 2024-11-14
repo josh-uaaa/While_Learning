@@ -16,7 +16,7 @@ models, and notes.
 
 🟩 **Python Exercises -** Refreshed my knowledge and technical `Python` skills by solving coding exercises.
 
-🟨 **Data Science Foundations -** Learning to conduct an exploratory analysis of a dataset using `Python` and `SQL`.
+🟨 **Data Science Foundations**
 
 ### _Resources_
 
