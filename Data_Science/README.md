@@ -1,5 +1,7 @@
 ## Data Science
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 The **Data_Science** directory of **While_Learning** documents my progress of gaining a deeper understanding of the principles
 and practices of **Data Analysis**, **Machine Learning**, and **Artificial Intelligence**, documenting exercise solutions, trained
 models, and notes.
