@@ -14,8 +14,7 @@ between server and client.
 
 ### _Learning Progress_
 
-🟨 **Design Databases with PostgreSQL -** Refreshing my knowledge on relational databases. Utilizing
-`PostgreSQL` to refresh my `SQL` skills.
+🟨 **Web Development Foundations**
 
 ### _Resources_
 
