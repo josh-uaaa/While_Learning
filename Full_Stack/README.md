@@ -1,5 +1,7 @@
 ## Full Stack Engineering
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
 The **Full_Stack** directory of **While_Learning** documents my comprehensive journey in becoming
 a proficient full stack software engineer, encompassing both frontend and backend development using
 industry-leading tools, libraries, and frameworks.
