@@ -14,7 +14,7 @@ models, and notes.
 
 ### _Learning Progress_
 
-🟩 **Python Exercises -** Refreshed my knowledge and technical `Python` skills by solving coding exercises.
+🟩 **Python Exercises -** Refreshed fundamental knowledge and technical skills in `Python` by solving coding exercises.
 
 🟨 **Data Science Foundations**
 
