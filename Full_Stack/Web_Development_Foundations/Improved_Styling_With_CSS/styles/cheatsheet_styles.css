@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: azure;
+}
+
+header h1 {
+    font-size: 50px;
+    color: azure;
+    background-color: lightsalmon;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.semantic-tags {
+    margin: 20px auto;
+}
+
+.semantic-tags h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.semantic-tags table {
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+.semantic-tags th {
+    background-color: lightsalmon;
+    border-right: 1px solid black;
+}
+
+.semantic-tags td {
+    padding: 0 10px;
+    height: 30px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.semantic-tags td.tags {
+    text-align: center;
+    color: azure;
+    background-color: lightcoral;
+    font-weight: 600;
+}
