@@ -1,0 +1,157 @@
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    background-color: #92C7CF;
+    padding: 5px;
+    margin: 10px auto;
+    border: 2px solid black;
+}
+
+header h1 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin: 10px 0 10px 10px;
+    color: white;
+}
+
+/* General Containers */
+
+.container {
+    border: 2px solid black;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.container h3 {
+    font-size: 30px;
+    margin: 10px 0 10px 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Color Containers */
+
+.color-container {
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.color-panel {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.primary-color {
+    background-color: #92C7CF;
+    color: white;
+}
+
+.secondary-color {
+    background-color: #AAD7D9;
+    color: white;
+}
+
+.background-color {
+    background-color: #FBF9F1;
+    color: #222831;
+}
+
+.alternative-color {
+    background-color: #E5E1DA;
+    color: #181C14;
+}
+
+/* Font Containers */
+
+.font-container {
+    padding: 5px;
+    margin: 10px;
+}
+
+.font-panel {
+    text-align: left;
+    padding: 5px;
+    width: 40%;
+    margin: 0 0 0 10px;
+}
+
+.font-label {
+    font-size: 20px;
+    margin: 10px 0 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: fit-content;
+}
+
+.font-samples p {
+    font-size: 17px;
+    margin: 10px 30px;
+    width: fit-content;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.lexend-deca {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.noto-sans {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* Text Containers */
+
+.text-container {
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+}
+
+.text-panel {
+    text-align: left;
+    padding: 5px;
+    width: fit-content;
+    margin: 5px;
+    display: inline-block;
+}
+
+.text-panel h4 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 5px;
+}
+
+.text-panel ul {
+    margin: 0;
+}
+
+.text-panel li {
+    font-family: 'Noto Sans', sans-serif;
+    margin: 5px 0;
+}
