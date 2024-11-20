@@ -21,6 +21,8 @@ between server and client.
 
 :yellow_square: **REST APIs With Spring**
 
+:yellow_square: **Design Databases With PostgreSQL**
+
 ### _Resources_
 
 ![Codecademy](https://img.shields.io/badge/Codecademy-FFF0E5?style=for-the-badge&logo=codecademy&logoColor=1F243A)
