@@ -17,7 +17,7 @@ between server and client.
 
 ### _Learning Progress_
 
-🟨 **Web Development Foundations**
+:yellow_square: **Web Development Foundations**
 
 :yellow_square: **REST APIs With Spring**
 
