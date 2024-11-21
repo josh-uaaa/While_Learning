@@ -1,0 +1,147 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    padding: 0;
+    margin: 0 auto;
+    width: 68%;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+/* Header */
+
+header {
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    width: 68%;
+    position: fixed;
+    top: 0;
+    left: 16%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background-color: black;
+}
+
+header #logo {
+    margin-left: 10px;
+}
+
+header nav {
+    margin-right: 10px;
+    width: 28%;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: seashell;
+}
+
+header a:hover {
+    color: lightcoral;
+}
+
+/* Mission Section */
+
+.mission {
+    margin-top: 69px;
+    width: 1200px;
+    height: 700px;
+    display: inline-flex;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.mission-text {
+    background-color: black;
+    width: 100%;
+}
+
+.mission h2 {
+    margin: 10px 0 15px;
+}
+
+.mission h4 {
+    margin: 10px 0;
+}
+
+/* Tea Month Section */
+
+.tea-month {
+    width: 1000px;
+    margin: 75px auto 50px;
+}
+
+.tea-month h2 {
+    margin: 0 0 20px 0;
+}
+
+.tea-month h4 {
+    margin: 10px 0;
+}
+
+.tea-images {
+    width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-images figure {
+    margin: 15px;
+}
+
+.tea-images figure figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Locations Section */
+
+.locations {
+    height: 570px;
+    width: 1200px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.locations h2 {
+    margin: 90px auto 0;
+}
+
+.location-panels {
+    margin: 0 auto;
+}
+
+.location {
+    background-color: black;
+    display: inline-block;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+.location p {
+    margin: 35px auto;
+}
+
+/* Footer */
+
+.contact-information {
+    margin-bottom: 70px;
+}
+
+footer h5.copyright {
+    text-align: left;
+    width: fit-content;
+    margin-left: 20px;
+}
