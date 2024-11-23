@@ -1,0 +1,144 @@
+/*
+#DDE6ED = Background
+Monoton = Company Logo
+Lexend Deca = Default Font
+*/
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 16px;
+    background-color: #DDE6ED;
+}
+
+.center {
+    text-align: center;
+}
+
+.main-content {
+    margin-top: 6rem;
+}
+
+/* Header, Navigation */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #DDE6ED;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 6rem;
+    align-items: center;
+    z-index: 100;
+}
+
+header h1 {
+    color: black;
+    font-family: 'Monoton';
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    margin-left: 4rem;
+}
+
+header nav ul {
+    display: flex;
+    margin-right: 4rem;
+    width: 30rem;
+    justify-content: space-between;
+}
+
+header ul a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+header ul a:hover {
+    color: #416392
+}
+
+/* Company Mission */
+
+#company-mission .banner {
+    background-image: url("../imgs/camera_background.jpg");
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position: left;
+    background-attachment: fixed;
+    height: 48rem;
+}
+
+#company-mission .content {
+    position: relative;
+    top: 12rem;
+    left: 11rem;
+    width: 20%;
+    background-color: #30361A;
+    opacity: 0.8;
+    color: #DDE6ED;
+    padding: 1.75rem;
+}
+
+#company-mission h2 {
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+#company-mission p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 1.75rem;
+    line-height: 2rem;
+}
+
+/* Company Products */
+
+#company-products .content {
+    height: 41rem;
+}
+
+#company-products h2 {
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 4rem;
+}
+
+.products {
+    margin-top: 4rem;
+    display: inline-flex;
+    column-gap: 3.5rem;
+}
+
+.product-container .product-img {
+    width: 25rem;
+    height: 25rem;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 5%;
+    align-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-container:hover .product-img {
+    filter: brightness(0.3);
+    transform: scale(1.05);
+}
+
+.product-container figcaption {
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: black;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.product-container:hover figcaption {
+    opacity: 1;
+}

@@ -1,0 +1,86 @@
+<!--
+Build a company homepage that includes at least...
+[] A title and logo.
+[] A mission statement or brief description of the company.
+[] A list or set of images and titles representing the product(s).
+[] A section describing some of the company's employees.
+
+Use flexbox styling for layout. Aim to use flexbox's advantages, such
+as easy horizontal and vertical positioning, flexible element flows as
+the page size changes, and great styling for repeated elements.
+
+Use custom styles for other properties, such as colors, fonts, and other
+layout properties such as borders and padding.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cameraddict</title>
+    <link rel="stylesheet" type="text/css" href="styles/cameraddict_reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/cameraddict_styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1 id="company-logo">Cameraddict</h1>
+        <nav>
+            <ul>
+                <li><a href="#company-mission">Our Mission</a></li>
+                <li><a href="#company-products">Products</a></li>
+                <li><a href="#company-aboutus">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-content">
+            <section id="company-mission">
+                <div class="banner">
+                    <div class="content center">
+                        <h2>Our Mission</h2>
+                        <p>To fuel the passion for photography, empower creators of all levels with
+                            tools, and support every shutter click on your journey to tell stories
+                            through the lens.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="company-products">
+                <div class="content center">
+                    <h2>Products</h2>
+                    <div class="products">
+                        <div class="product-container">
+                            <figure id="product-one">
+                                <img class="product-img" src="imgs/camera_product.jpg">
+                                <figcaption>Cameras</figcaption>
+                            </figure>
+                        </div>
+                        <div class="product-container">
+                            <figure id="product-two">
+                                <img class="product-img" src="imgs/film_product.jpg">
+                                <figcaption>Films</figcaption>
+                            </figure>
+                        </div>
+                        <div class="product-container">
+                            <figure id="product-three">
+                                <img class="product-img" src="imgs/equipment_product.jpg">
+                                <figcaption>Equipment</figcaption>
+                            </figure>
+                        </div>
+                        <div class="product-container">
+                            <figure id="product-four">
+                                <img class="product-img" src="imgs/studio_product.jpg">
+                                <figcaption>Studios</figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="company-aboutus"></section>
+        </div>
+    </main>
+</body>
+
+</html>
