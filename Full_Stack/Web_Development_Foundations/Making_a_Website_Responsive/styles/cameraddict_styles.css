@@ -64,16 +64,16 @@ header ul a:hover {
 #company-mission .banner {
     background-image: url("../imgs/camera_background.jpg");
     background-repeat: no-repeat;
-    background-size: 125%;
+    background-size: 115%;
     background-position: left;
     background-attachment: fixed;
-    height: 48rem;
+    height: 57rem;
 }
 
 #company-mission .content {
     position: relative;
-    top: 12rem;
-    left: 11rem;
+    top: 17rem;
+    left: 12.5rem;
     width: 20%;
     background-color: #30361A;
     opacity: 0.8;
@@ -141,4 +141,43 @@ header ul a:hover {
 
 .product-container:hover figcaption {
     opacity: 1;
+}
+
+/* Company About Us */
+
+#company-aboutus .content {
+    height: 38rem;
+}
+
+#company-aboutus h2 {
+    text-transform: uppercase;
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.employees {
+    margin-top: 6rem;
+    display: inline-flex;
+    column-gap: 15rem;
+}
+
+.employee-container .employee-img{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    margin: 0;
+    border-radius: 100%;
+    align-content: center;
+}
+
+.employee-container figcaption {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.employee-container figcaption span {
+    font-weight: 500;
+    font-style: italic;
 }
