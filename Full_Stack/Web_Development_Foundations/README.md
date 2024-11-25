@@ -10,4 +10,4 @@
 
 :green_square: **Improved Styling With CSS -** Dig deeper into CSS and improve styling websites with CSS. Learn more about navigation design. Apply more custom colors and fonts. Style navigation elements like links and buttons. Create secondary (breadcrumb) navigation.
 
-:yellow_square: **Making a Website Responsive -** Create websites that can be viewed on different devices. Use different layouts and positioning. Understand responsive web design. Use CSS Grid and Flexbox for layout, positioning, and responsiveness. Use media queries.
+:green_square: **Making a Website Responsive -** Create websites that can be viewed on different devices. Use different layouts and positioning. Understand responsive web design. Use CSS Grid and Flexbox for layout, positioning, and responsiveness. Use media queries.
