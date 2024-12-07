@@ -24,7 +24,7 @@ guessButton.addEventListener('click', () => {
   // Display the computer guess and the target
   computerGuessDisplay.innerText = computerGuess;
   targetNumberDisplay.innerText = target;
-  
+
   // Determine if the human or computer wins:
   const humanIsWinner = compareGuesses(currentHumanGuess, computerGuess, target)
   const winner = humanIsWinner ? 'human' : 'computer'
@@ -45,7 +45,7 @@ guessButton.addEventListener('click', () => {
   // Display the current scores:
   humanScoreDisplay.innerText = humanScore;
   computerScoreDisplay.innerText = computerScore;
-  
+
   // Set the correct disabled state for the buttons
   guessButton.setAttribute('disabled', true)
   nextRoundButton.removeAttribute('disabled');
@@ -94,6 +94,6 @@ const handleValueChange = value => {
   }
 }
 
-humanGuessInput.addEventListener('input', function(e) {
+humanGuessInput.addEventListener('input', function (e) {
   handleValueChange(e.target.value);
 });
