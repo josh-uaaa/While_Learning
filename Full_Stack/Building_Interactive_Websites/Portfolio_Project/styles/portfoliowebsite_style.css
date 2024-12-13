@@ -1,0 +1,78 @@
+/* General */
+
+body {
+    font-size: 16px;
+    font-family: 'Noto Sans';
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Logos */
+
+.socials-logo {
+    width: 1.75rem;
+}
+
+.logo {
+    width: 1.75rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: -0.15rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: -0.05rem;
+}
+
+/* Header */
+
+.header-wrapper {
+    background-color: lightsteelblue;
+    position: fixed;
+    /* 100 x 80% x 35% = 28. Since it's fixed, it uses 100% width instead of 80%. */
+    width: 28%;
+    height: 100%;
+    padding-top: 5rem;
+}
+
+#identity h2 {
+    padding-top: 0.5rem;
+}
+
+#mini-desc {
+    padding-top: 1.25rem;
+    width: 80%;
+}
+
+header nav {
+    padding-top: 2.5rem;
+    padding-left: 2rem;
+}
+
+header nav li {
+    padding-top: 1.5rem;
+}
+
+header nav li a {
+    color: black;
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: -0.05rem;
+    text-decoration: none;
+}
+
+/* Main */
+
+.main-wrapper {
+    background-color: gainsboro;
+    width: auto;
+    /* Compensate positioning for left-side header. */
+    margin-left: 35%;
+    padding-top: 5.5rem;
+}
