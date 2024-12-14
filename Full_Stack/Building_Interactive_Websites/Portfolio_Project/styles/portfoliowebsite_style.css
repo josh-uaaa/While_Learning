@@ -8,21 +8,21 @@ body {
     margin: 0 auto;
 }
 
-/* Logos */
-
 .logo {
     width: 3.25rem;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 h1 {
     font-size: 2.5rem;
-    font-weight: bold;
     letter-spacing: -0.15rem;
 }
 
 h2 {
     font-size: 1.5rem;
-    font-weight: bold;
     letter-spacing: -0.05rem;
 }
 
@@ -31,11 +31,25 @@ p {
 }
 
 .content-container {
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
 }
 
 .section-content {
     margin-bottom: 1.5rem;
+}
+
+.timeline {
+    font-size: 0.9rem;
+    white-space: nowrap;
+    line-height: 1.3rem;
+}
+
+.indented-wrapper {
+    margin-left: 1.5rem;
+}
+
+.description {
+    font-size: 0.87rem;
 }
 
 /* Header */
@@ -78,6 +92,49 @@ header nav li a {
 header nav li a:hover {
     font-size: 1rem;
     line-height: 0.85rem;
+    margin-left: 1rem;
+}
+
+#lightdark img {
+    width: 1.25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.35rem;
+}
+
+#lightdark {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 3rem;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background-color: inherit;
+    /* Code below extracted from an example */
+    appearance: none;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    display: inline-flex;
+    transition: box-shadow .15s, transform .15s;
+    touch-action: manipulation;
+    white-space: nowrap;
+}
+
+/* Code extracted from an example */
+#lightdark:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+/* Code extracted from an example */
+#lightdark:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+/* Code extracted from an example */
+#lightdark:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
 }
 
 /* Main */
@@ -102,20 +159,33 @@ header nav li a:hover {
     display: flex;
 }
 
-.exp-timeline {
-    font-size: 0.95rem;
-    font-weight: bold;
-    white-space: nowrap;
+#profexp .timeline {
+    min-width: 11rem;
 }
 
-.exp-wrapper {
-    margin-left: 2.5rem;
+#education .section-content {
+    display: flex;
 }
 
-.exp-title-company {
-    font-weight: bold;
+.edu-header {
+    display: flex;
+    justify-content: space-between;
 }
 
-.exp-desc {
-    font-size: 0.9rem;
+.edu-univ {
+    font-size: 0.93rem;
+    font-style: italic;
+}
+
+.edu-courses {
+    display: flex;
+    margin-top: 0.75rem;
+}
+
+#tech-list {
+    display: flex;
+}
+
+#tech-list .logo {
+    padding-right: 1rem;
 }
