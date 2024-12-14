@@ -10,12 +10,8 @@ body {
 
 /* Logos */
 
-.socials-logo {
-    width: 1.75rem;
-}
-
 .logo {
-    width: 1.75rem;
+    width: 3.25rem;
 }
 
 h1 {
@@ -30,50 +26,96 @@ h2 {
     letter-spacing: -0.05rem;
 }
 
+p {
+    line-height: 1.2rem;
+}
+
+.content-container {
+    margin-bottom: 2rem;
+}
+
+.section-content {
+    margin-bottom: 1.5rem;
+}
+
 /* Header */
 
 .header-wrapper {
-    background-color: lightsteelblue;
     position: fixed;
     /* 100 x 65% x 30% = 19.5. Since it's fixed, it uses 100% width instead of 80%. */
     width: 19.5%;
     height: 100%;
-    padding-top: 5rem;
+    margin-top: 8rem;
 }
 
 #identity h2 {
-    padding-top: 0.5rem;
+    margin-top: 0.5rem;
 }
 
 #mini-desc {
-    padding-top: 1.25rem;
+    margin-top: 1.25rem;
     width: 80%;
 }
 
 header nav {
-    padding-top: 2.5rem;
-    padding-left: 2rem;
+    margin-top: 5rem;
 }
 
 header nav li {
-    padding-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 header nav li a {
     color: black;
     font-size: 0.85rem;
+    line-height: 0.85rem;
     font-weight: bold;
     letter-spacing: -0.05rem;
     text-decoration: none;
+    transition: all 0.15s ease-in-out;
+}
+
+header nav li a:hover {
+    font-size: 1rem;
+    line-height: 0.85rem;
 }
 
 /* Main */
 
 .main-wrapper {
-    background-color: gainsboro;
     width: auto;
     /* Compensate positioning for left-side header. */
     margin-left: 30%;
-    padding-top: 5.5rem;
-    padding-left: 4rem;
+    padding-top: 8.7rem;
+    padding-left: 9rem;
+}
+
+.content-container h2 {
+    margin-bottom: 1rem;
+}
+
+#about p {
+    margin-bottom: 1rem;
+}
+
+#profexp .section-content {
+    display: flex;
+}
+
+.exp-timeline {
+    font-size: 0.95rem;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.exp-wrapper {
+    margin-left: 2.5rem;
+}
+
+.exp-title-company {
+    font-weight: bold;
+}
+
+.exp-desc {
+    font-size: 0.9rem;
 }
