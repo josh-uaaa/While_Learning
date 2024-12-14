@@ -3,7 +3,7 @@
 body {
     font-size: 16px;
     font-family: 'Noto Sans';
-    width: 80%;
+    width: 65%;
     display: flex;
     margin: 0 auto;
 }
@@ -35,8 +35,8 @@ h2 {
 .header-wrapper {
     background-color: lightsteelblue;
     position: fixed;
-    /* 100 x 80% x 35% = 28. Since it's fixed, it uses 100% width instead of 80%. */
-    width: 28%;
+    /* 100 x 65% x 30% = 19.5. Since it's fixed, it uses 100% width instead of 80%. */
+    width: 19.5%;
     height: 100%;
     padding-top: 5rem;
 }
@@ -73,6 +73,7 @@ header nav li a {
     background-color: gainsboro;
     width: auto;
     /* Compensate positioning for left-side header. */
-    margin-left: 35%;
+    margin-left: 30%;
     padding-top: 5.5rem;
+    padding-left: 4rem;
 }
