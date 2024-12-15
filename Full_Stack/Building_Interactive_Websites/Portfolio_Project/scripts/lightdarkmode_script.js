@@ -6,7 +6,7 @@ const socialsLogos = document.querySelectorAll('.social-logo');
 let lightMode = true;
 function changeMode() {
     if (lightMode) {
-        document.body.style.backgroundColor = 'black';
+        document.body.style.backgroundColor = '#041C32';
         document.body.style.color = 'white';
         lightdarkImg.src = 'imgs/light_mode.png';
         lightdarkButton.style.borderColor = 'white';
@@ -20,7 +20,7 @@ function changeMode() {
             logo.src = `imgs/${logoID}_dark.png`;
         });
     } else {
-        document.body.style.backgroundColor = 'white';
+        document.body.style.backgroundColor = '#F5F2E7';
         document.body.style.color = 'black'
         lightdarkImg.src = 'imgs/dark_mode.png';
         lightdarkButton.style.borderColor = 'black';

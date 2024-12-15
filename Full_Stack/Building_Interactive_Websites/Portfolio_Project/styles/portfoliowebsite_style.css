@@ -6,6 +6,7 @@ body {
     width: 65%;
     display: flex;
     margin: 0 auto;
+    background-color: #F5F2E7;
     transition: background-color 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 
@@ -104,9 +105,9 @@ header nav li a {
     font-size: 0.85rem;
     line-height: 0.85rem;
     font-weight: bold;
-    letter-spacing: -0.05rem;
+    letter-spacing: -0.025rem;
     text-decoration: none;
-    transition: margin-left 0.15s ease-in-out;
+    transition: margin-left 0.1s ease-in-out;
 }
 
 header nav li a:hover {
