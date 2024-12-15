@@ -182,6 +182,10 @@ header nav li a:hover {
     margin-top: 0.75rem;
 }
 
+.relevantcourses-title {
+    min-width: 10rem;
+}
+
 #tech-list {
     display: flex;
 }
