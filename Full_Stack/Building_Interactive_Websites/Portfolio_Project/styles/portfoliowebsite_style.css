@@ -50,10 +50,6 @@ p {
     line-height: 1.3rem;
 }
 
-.indented-wrapper {
-    margin-left: 1.5rem;
-}
-
 .description {
     font-size: 0.87rem;
 }
@@ -172,6 +168,10 @@ header nav li a:hover {
     min-width: 11rem;
 }
 
+.exp-wrapper {
+    margin-left: 1.5rem;
+}
+
 .exp-desc {
     margin-top: 0.25rem;
 }
@@ -209,4 +209,172 @@ header nav li a:hover {
 
 #tech-list .tech-logo {
     padding-right: 1rem;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 1440px) {
+    .tech-logo {
+        width: 2.5rem;
+    }
+    
+    .social-logo {
+        width: 1.5rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 0.93rem;
+    }
+
+    .socials img:hover {
+        width: 2rem;
+    }
+
+    header nav li a {
+        font-size: 0.8rem;
+    }
+
+    header nav li a:hover {
+        margin-left: 0.8rem;
+    }
+
+    #lightdark img {
+        width: 0.9rem;
+    }
+
+    .description {
+        font-size: 0.85rem;
+    }
+
+    .timeline {
+        font-size: 0.8rem;
+    }
+
+    #profexp .timeline {
+        min-width: 8rem;
+    }
+
+    .exp-title-company {
+        font-size: 0.87rem;
+    }
+
+    .edu-degree {
+        font-size: 0.9rem;
+    }
+
+    .edu-univ {
+        font-size: 0.85rem;
+    }
+
+    .relevantcourses-title {
+        font-size: 0.8rem;
+        min-width: 8.5rem;
+    }
+
+    .courses-list {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-wrapper {
+        padding-left: 6rem;
+    }
+
+    #profexp .section-content {
+        display: block;
+    }
+
+    .exp-wrapper {
+        margin-left: 0;
+    }
+
+    .edu-header {
+        display: grid;
+        grid-template-areas: "timeline"
+                             "degree";
+    }
+
+    .edu-degree {
+        grid-area: degree;
+    }
+
+    #education .timeline {
+        grid-area: timeline;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    header nav {
+        margin-top: 4rem;
+    }
+
+    .main-wrapper {
+        padding-left: 3.5rem;
+    }
+
+    .edu-courses {
+        display: block;
+    }
+
+    .courses-list {
+        margin-top: 0.25rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        display: block;
+    }
+    .header-wrapper {
+        position: static;
+        width: auto;
+        height: auto;
+        margin-top: 5rem;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    .main-wrapper {
+        margin: 0 auto;
+        padding-top: 2.5rem;
+        padding-left: 0;
+    }
+
+    #lightdark {
+        position: absolute;
+        top: 14.6rem;
+        right: 4.6rem;
+        bottom: auto;
+    }
+
+    .tech-logo {
+        width: 2.25rem;
+    }
+
+    .edu-degree {
+        font-size: 0.82rem;
+    }
+
+    .edu-univ {
+        font-size: 0.8rem;
+    }
 }
