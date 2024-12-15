@@ -10,9 +10,9 @@ a proficient full stack software engineer, encompassing both frontend and backen
 industry-leading tools, libraries, and frameworks.
 
 ### _Purpose_
-- Develop practical skills in frontend technologies, including `HTML`,`CSS`, `JavaScript`, and
+- Develop practical skills in front-end technologies, including `HTML`,`CSS`, `JavaScript`, and
 modern libraries such as `React`.
-- Deepen my understanding of backend development with `Java`, `Spring Boot`, `Express.js`, and
+- Deepen my understanding of back-end development with `Java`, `Spring Boot`, `Express.js`, and
 other key frameworks.
 - Learn the creation and consumption of secure **RESTful APIs** for seamless data communication
 between server and client.
@@ -21,7 +21,9 @@ between server and client.
 
 :green_square: **Web Development Foundations**
 
-:yellow_square: **Building Interactive Websites**
+:green_square: **Building Interactive Websites**
+
+:yellow_square: **Front-End Development**
 
 :yellow_square: **REST APIs With Spring**
 
