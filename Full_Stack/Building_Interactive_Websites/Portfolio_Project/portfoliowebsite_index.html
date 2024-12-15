@@ -6,9 +6,10 @@
 <head>
     <title>Personal Portfolio Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" rel="stylesheet" href="./styles/portfoliowebsite_reset.css">
-    <link type="text/css" rel="stylesheet" href="./styles/portfoliowebsite_style.css">
+    <link type="text/css" rel="stylesheet" href="styles/portfoliowebsite_reset.css">
+    <link type="text/css" rel="stylesheet" href="styles/portfoliowebsite_style.css">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="scripts/lightdarkmode_script.js" async></script>
 </head>
 
 <body>
@@ -19,6 +20,11 @@
                 <h2 class="bold">Software Engineer</h2>
                 <p id="mini-desc">Improving the world through software development, one software at a time.</p>
             </div>
+            <div class="socials">
+                <a href=""><img src="imgs/linkedin_light.png" id="linkedin" class="social-logo"></a>
+                <a href="https://github.com/josh-uaaa" target="_blank"><img src="imgs/github_light.png" id="github" class="social-logo"></a>
+                <a href=""><img src="imgs/email_light.png" id="email" class="social-logo"></a>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#about">ABOUT</a></li>
@@ -27,7 +33,7 @@
                     <li><a href="#techstack">TECH STACK</a></li>
                 </ul>
             </nav>
-            <button id="lightdark" name="lightdark"><img src="./imgs/dark_mode.png"></button>
+            <button id="lightdark" name="lightdark"><img src="imgs/dark_mode.png" id="lightdark-img"></button>
         </div>
     </header>
     <main>
@@ -93,11 +99,11 @@
                 <div class="content-container">
                     <h2 class="section-title bold">Tech Stack</h2>
                     <div id="tech-list">
-                        <img src="./imgs/html_light.png" class="logo">
-                        <img src="./imgs/css_light.png" class="logo">
-                        <img src="./imgs/js_light.png" class="logo">
-                        <img src="./imgs/java_light.png" class="logo">
-                        <img src="./imgs/python_light.png" class="logo">
+                        <img src="imgs/html_light.png" id="html" class="tech-logo">
+                        <img src="imgs/css_light.png" id="css" class="tech-logo">
+                        <img src="imgs/js_light.png" id="js" class="tech-logo">
+                        <img src="imgs/java_light.png" id="java" class="tech-logo">
+                        <img src="imgs/python_light.png" id="python" class="tech-logo">
                     </div>
                 </div>
             </section>
