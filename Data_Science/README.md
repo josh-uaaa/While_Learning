@@ -14,6 +14,4 @@ models, and notes.
 
 ### _Learning Progress_
 
-:green_square: **Python Exercises -** Refreshed fundamental knowledge and technical skills in `Python` by solving coding exercises.
-
-:red_square: **Data Science Foundations**
+:green_square: **Python Exercises** | :red_square: **Data Science Foundations**
