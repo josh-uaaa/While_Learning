@@ -17,8 +17,3 @@ models, and notes.
 :green_square: **Python Exercises -** Refreshed fundamental knowledge and technical skills in `Python` by solving coding exercises.
 
 :red_square: **Data Science Foundations**
-
-### _Resources_
-
-![Exercism](https://img.shields.io/badge/Exercism-009CAB?style=for-the-badge&logo=exercism&logoColor=white)
-![Codecademy](https://img.shields.io/badge/Codecademy-FFF0E5?style=for-the-badge&logo=codecademy&logoColor=1F243A)
