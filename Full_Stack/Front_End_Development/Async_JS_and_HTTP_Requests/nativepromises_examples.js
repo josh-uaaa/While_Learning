@@ -31,7 +31,7 @@ setTimeout(usingSTO, 3000);
 console.log("This is the last line of code in app.js.");
 
 // Success and Failure Callback Functions.
-import { checkInventory } from './async_libraries.js';
+import { checkInventory } from './nativepromises_libraries.js';
 
 const order = [['sunglasses', 1], ['bags', 2]];
 
@@ -57,7 +57,7 @@ const handleFailure = (rejectReason) => {
 checkInventory(order).then(handleSuccess).catch(handleFailure);
 
 // Chaining Multiple Promises.
-import { checkInventoryNew, processPayment, shipOrder } from './async_libraries.js';
+import { checkInventoryNew, processPayment, shipOrder } from './nativepromises_libraries.js';
 
 const newOrder = {
     items: [['sunglasses', 1], ['bags', 2]],
@@ -79,7 +79,7 @@ checkInventoryNew(newOrder)
     });
 
 // Using Promise.all().
-import { checkAvailability } from './async_libraries.js';
+import { checkAvailability } from './nativepromises_libraries.js';
 
 const onFulfill = (itemsArray) => {
     console.log(`Items checked: ${itemsArray}`);
